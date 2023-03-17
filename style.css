@@ -1,4 +1,15 @@
 #texto{
     display: inline-block;
     vertical-align: top;
+    float:left;
+    margin: 20px;
   }
+
+  div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #449;
+    color: #fff;
+    padding: 15px;
+  }
+  
