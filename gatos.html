@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>Ayuda a un peludo</title>
 </head>
 <body>
@@ -14,9 +16,68 @@
     <center><h1> GATOS EN ADOPCIÓN     </h1></center>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas placeat, quibusdam earum laudantium nam excepturi voluptatum quia, animi ipsam veniam et alias hic inventore, ex tempora. Ipsa, consectetur facilis!</p>
     <center><h2>Nuestros Gatos que buscan familia</h2></center>
-    <h1><img src="imgs/ginger.jfif" width="300" height="150"/> <a href="ginger.html" class="btn">Ginger</a> </h1>
-    <h1><img src="imgs/tommy.jfif" width="300" height="150"/> <a href="tommy.html" class="btn">Tommy</a> </h1>
-    <h1><img src="imgs/lucifer.jfif" width="300" height="150"/> <a href="lucifer.html" class="btn">Lucifer</a> </h1>
+    <div class="container" style="width: 100%; height: 100%;" >
+               
+    
+        <div class="row" style="width: 90%; height: 100%; ">
+            <div class="col-3"></div>
+            <div class="col-7" style="display: inline-block">
+                <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/tommy.jfif" alt="tommy" class="d-block" style="width:100%"; height="100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="tommy.html" class="btn">Tommy</a>
+                    
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/ginger.jfif" alt="ginger" class="d-block" style="width:100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="ginger.html" class="btn">Ginger</a>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/lucifer.jfif" alt="lucifer" class="d-block" style="width:100%" height="100%">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="lucifer.html" class="btn">Lucifer</a>
+                  </div>
+            </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+
+           
+            </div>
+
+    </div>
+            
+        
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
