@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Ayuda a un peludo</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <section>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas da-bars"></i>
+            </label>
+            <a herf="#" class="enlace">
+                <img src="/imgs/logo.jpg" alt="" class="logo">
+            </a>
+            <ul>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a  href="#">Nosotros</a></li>
+                <li><a  href="#">Perros</a></li>
+                <li><a  href="#">Gatos</a></li>
+                <li><a  href="#">Contactos</a></li>
+            </ul>
+        </nav>
     <div id="Inicio">
         <ul>
             <li><a href="Entrada.html">Entrada > </a></li>
@@ -15,40 +36,42 @@
     </div>
     <div id="contenedor">
     <div id="Titulo">
-        <h1>ONG - AYUDA A UN PELUDO</h1> 
+        <h1>ONG-AYUDA A UN PELUDO</h1> 
+    </div>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odio aut eaque. 
             Beatae, excepturi aliquid recusandae deserunt consequuntur, nam iste laboriosam,
-             impedit adipisci facilis accusantium enim? Magni, eligendi. Obcaecati, magnam.
+            impedit adipisci facilis accusantium enim? Magni, eligendi. Obcaecati, magnam.
             </P>
-    </div>
-    <h2>Nuestros integrantes:</h2>
-    <div id="Subtitulo">
-        <ul>
-            <li><a href="#">Persona 1 - cargo 1</a></li>
-            <li><a href="#">Persona 2 - cargo 2</a></li>
-            <li><a href="#">Persona 3 - cargo 3</a></li>
-            <li><a href="#">Persona n - cargo n</a></li>
-        </ul>
-    </div>
+    
     <div id="Subtitulo2">
         <h2>Nuestras secciones de ayuda:</h2>
     </div>
-</div>
-        <table>
-            <td>
-            <img src="img/Gatos.jpg" height="100" width="250" alt="Imagen 1"/>
-            </td>
-            <td>
-            <h1><a href="Gatos.html">Gatos</a></h1>
-            </td>
-        </table>
-        <table>
-            <td>
-            <img src="img/perros.jpg" height="100" width="250" alt="Imagen 1"/>
-            </td>
-            <td>
-            <h1><a href="Perros.html">Perros</a></h1>
-            </td>
-        </table>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/img/Gatos.jpg" height="250px" class="d-block w-100" alt="imagen1">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/perros.jpg" height="250px" class="d-block w-100" alt="imagen2">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/Ginger.png" height="250px" class="d-block w-100" alt="imagen3">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </section>
 </body>
 </html>
