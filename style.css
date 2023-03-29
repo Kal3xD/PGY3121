@@ -3,7 +3,7 @@ font-family: sans-serif;
 }
 
 body{
-  background-color: darkgray;
+  background-color: gray;
     
 }
 
@@ -76,3 +76,48 @@ height: 50%;
   color: green !important;
   
 }  
+
+.contenedor_infogatos{
+  background-color: grey;
+
+}
+
+.container-fluid{
+  background-color: aqua;
+  text-align: center;
+}
+
+.col{
+  text-align: justify;
+  margin-top: 1%;
+  border-style: double;
+  border: 1cm;
+}
+
+.col-5{
+  background-color: lavender;
+  align-items: center;
+  margin-top: 20%;
+}
+
+#titu_anim{
+text-decoration: underline;
+text-decoration-color: grey;
+font-size: xx-large;
+}
+
+.col-7{
+  background-color: lightsalmon;
+  text-align: justify;
+}
+
+#caract_bio_anim{
+  margin: auto;
+  
+  border-color: black lightsalmon black lightsalmon;
+  border-style: outset;
+}
+
+
+
+
