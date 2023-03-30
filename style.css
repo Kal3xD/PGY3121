@@ -118,7 +118,7 @@ font-size: xx-large;
   background-color: lavender;
   text-align: justify;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding-bottom: 3%;
 }
 
