@@ -1,7 +1,7 @@
 
 body {
     font-family: sans-serif;
-    background: url(/imgs/fondo.webp) no-repeat;
+    background: url(imgs/fondo_2.webp) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -191,3 +191,9 @@ section{
 
 
 
+.carousel-inner{
+    font-weight: bold;
+    font-style: oblique;
+    font: 900;
+
+}
