@@ -1,7 +1,11 @@
 
 body {
     font-family: sans-serif;
-    
+    background: url(/imgs/fondo.webp) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
 }
 
 ul {

@@ -5,48 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <div id="Inicio">
+    <section>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas da-bars"></i>
+        </label>
+        <a herf="#" class="enlace">
+            <img src="imgs/logo.jpg" alt="" class="logo">
+        </a>
         <ul>
-            <li><a href="index.html">Inicio > </a></li>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a  href="Nosotros.html">Nosotros</a></li>
+            <li><a  href="Perros.html">Perros</a></li>
+            <li><a  href="Gatos.html">Gatos</a></li>
+            <li><a  href="Contactos.html">Contactos</a></li>
         </ul>
+    </nav>
+    <br></br>
+    <center><h1> PERROS EN ADOPCIÓN     </h1></center>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas placeat, quibusdam earum laudantium nam excepturi voluptatum quia, animi ipsam veniam et alias hic inventore, ex tempora. Ipsa, consectetur facilis!</p>
+    <center><h2>Nuestros Perros que buscan familia</h2></center>
+    <div class="container" style="width: 100%; height: 100%;" >
+               
+    
+        <div class="row" style="width: 90%; height: 100%; ">
+            <div class="col-3"></div>
+            <div class="col-7" >
+                <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/cachulo.jfif" alt="cachulo" class="d-block" style="width:100%"; height="250px">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="cachulo.html" class="btn">Cachulo</a>
+                    
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/niña.jfif" alt="niña" class="d-block" style="width:100%" height="250px" >
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="niña.html" class="btn">Niña</a>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/flaca.jfif" alt="flaca" class="d-block" style="width:100%" height="250px">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="flaca.html" class="btn">Flaca</a>
+                  </div>
+            </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+
+           
+            </div>
+
     </div>
-    <div id="contenedor">
-    <div id="Titulo">
-        <h1>Perros en adopcion</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste inventore quae numquam,
-             ut ad mollitia nam dignissimos molestias obcaecati dicta libero totam accusamus,
-             voluptatibus at aut recusandae adipisci? Distinctio, molestias.</p>
+            
+        
+        
     </div>
-    <div id="Subtitulo">
-        <h2>Nuestros Perros que buscan familia:</h2>
-        <table>
-            <td>
-            <img src="img/Cachulo.jfif" height="100" width="250" alt="Imagen 1"/>
-            </td>
-            <td>
-            <h1><a href="Cachulo.html">Cachulo</a></h1>
-            </td>
-        </table>
-        <table>
-            <td>
-            <img src="img/Niña.jfif" height="100" width="250" alt="Imagen 1"/>
-            </td>
-            <td>
-            <h1><a href="Niña.html">Niña</a></h1>
-            </td>
-        </table>
-        <table>
-            <td>
-            <img src="img/Flaca.jfif" height="100" width="250" alt="Imagen 1"/>
-            </td>
-            <td>
-            <h1><a href="Flaca.html">Flaca</a></h1>
-            </td>
-        </table>
-    </div>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    </section>
 </body>
 </html>
