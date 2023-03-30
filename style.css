@@ -61,11 +61,21 @@ li a.active, li a:hover{
     display: none;
 }
 section{
+    position:relative;
     background: url(/imgs/fondo.webp) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100%;
-    width: 100%;
+    height: 1080px;
+}
+@media(max-width: 600px){
+    section{
+        position:relative;
+        background: url(/imgs/fondo.webp) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 720px;
+        width: 1080px;
+    }
 }
 @media(max-width: 952px){
     .enlace{
