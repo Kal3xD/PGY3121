@@ -2,9 +2,13 @@
 font-family: sans-serif;
 }
 
-body{
-  background-color: gray;
-    
+body {
+    font-family: sans-serif;
+    background: url(imgs/fondo_2.webp) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
 }
 
 #menu{
@@ -83,7 +87,7 @@ height: 50%;
 }
 
 .container-fluid{
-  background-color: aqua;
+  
   text-align: center;
 }
 
@@ -135,14 +139,7 @@ font-size: xx-large;
 
 
 
-body {
-    font-family: sans-serif;
-    background: url(imgs/fondo_2.webp) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
-}
+
 
 ul {
     list-style: none;
