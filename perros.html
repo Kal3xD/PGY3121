@@ -4,19 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <div class="btn-home">
-        <a href="index.html" style="float:right" class="btn">Inicio></a>
-    </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas da-bars"></i>
+        </label>
+        <a herf="#" class="enlace">
+            <img src="imgs/logo.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a  href="Nosotros.html">Nosotros</a></li>
+            <li><a  href="Perros.html">Perros</a></li>
+            <li><a  href="Gatos.html">Gatos</a></li>
+            <li><a  href="Contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
     <br></br>
-    <center><h1> PERROS EN ADOPCIÓN     </h1></center>
+    <h1 style="text-align: center;"> PERROS EN ADOPCIÓN     </h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas placeat, quibusdam earum laudantium nam excepturi voluptatum quia, animi ipsam veniam et alias hic inventore, ex tempora. Ipsa, consectetur facilis!</p>
-    <center><h2>Nuestros Perros que buscan familia</h2></center>
-    <h1><img src="imgs/cachulo.jfif" width="300" height="150"/> <a href="cachulo.html" class="btn">Cachulo</a> </h1>
-    <h1><img src="imgs/niña.jfif" width="300" height="150"/> <a href="niña.html" class="btn">Niña</a> </h1>
-    <h1><img src="imgs/flaca.jfif" width="300" height="150"/> <a href="flaca.html" class="btn">Flaca</a> </h1>
+    <h2 style="text-align: center;">Nuestros Perros que buscan familia</h2>
+    <div class="container" style="width: 100%; height: 100%;" >
+               
+    
+        <div class="row" style="width: 90%; height: 100%; ">
+            <div class="col-3"></div>
+            <div class="col-7" >
+                <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner" ">
+            <div class="carousel-item active">
+                <img src="imgs/cachulo.jfif" alt="cachulo" class="d-block" style="width:700px"; height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="cachulo.html" class="btn">Cachulo</a>
+                    
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center"><img src="imgs/niña.jfif" alt="niña" class="d-block" tyle="width:700px"; height="400px" > </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="niña.html" class="btn">Niña</a>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center"><img src="imgs/flaca.jfif" alt="flaca" class="d-block" tyle="width:700px"; height="400px"> </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="flaca.html" class="btn" class="text_carousel">Flaca</a>
+                  </div>
+            </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+
+           
+            </div>
+
+    </div>
+            
+        
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    
 </body>
 </html>
 
